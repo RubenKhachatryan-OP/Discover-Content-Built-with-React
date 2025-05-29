@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components"
-import { Btn } from "@/components/shared/Buttons.styles"
+import { Btn } from "@/components/shared/Btn"
 
 export const ButtonsContainer = styled.div`
   @media only screen and (${(props) => props.theme.device.phone}) {

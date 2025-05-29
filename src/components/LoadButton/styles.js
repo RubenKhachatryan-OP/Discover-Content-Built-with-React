@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { BtnBlue } from "@/components/shared/Buttons.styles"
+import { BtnBlue } from "@/components/shared/BtnBlue"
 
 export const LoadBtn = styled(BtnBlue)`
   margin-top: 30px;

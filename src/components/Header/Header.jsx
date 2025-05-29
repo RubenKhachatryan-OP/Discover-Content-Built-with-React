@@ -12,7 +12,7 @@ import basic_search_blue from "@assets/icons/basic-28-search-blue.svg"
 import { SwitchBtn } from "@components/shared/SwitchBtn"
 import { VectorIcon } from "@components/shared/VectorIcon"
 
-import { LoadBar } from "@/components/shared/LoadBar.styles"
+import { LoadBar } from "@/components/shared/LoadBar"
 import { LoadStateContext } from "@/context/LoadStateContext"
 
 import { HeaderContainer, HeaderNavbar } from "./styles"

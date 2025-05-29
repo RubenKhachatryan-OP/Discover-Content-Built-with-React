@@ -1,1 +1,1 @@
-export { Btn as SwitchBtn } from "@components/shared/Buttons.styles"
+export { Btn as SwitchBtn } from "@components/shared/Btn"

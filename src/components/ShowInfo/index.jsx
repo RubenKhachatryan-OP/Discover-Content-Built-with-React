@@ -15,6 +15,9 @@ const ShowInfo = forwardRef(({ size, info }, ref) => {
   const showHover = () => {
     switchHoverShown()
   }
+  const hideHover = () => {
+    switchHoverShown(false)
+  }
 
   const {
     id,
@@ -32,6 +35,7 @@ const ShowInfo = forwardRef(({ size, info }, ref) => {
       className={
         "card card-style discover card-layout" + (size ? " basic-info" : "")
       }
+      onMouseLeave={hideHover}
       ref={ref}
     >
       <Link

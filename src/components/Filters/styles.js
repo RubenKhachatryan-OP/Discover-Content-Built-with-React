@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components"
-import { BtnBlue } from "@/components/shared/Buttons.styles"
+import { BtnBlue } from "@/components/shared/BtnBlue"
 
 // Sort Filter Sticky Blue Button
 export const SearchStickyBtnIndicator = styled.div`

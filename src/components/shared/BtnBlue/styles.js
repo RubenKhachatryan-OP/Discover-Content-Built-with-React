@@ -1,16 +1,5 @@
 import styled from "styled-components"
-
-export const Btn = styled.button`
-  all: unset;
-  line-height: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-  cursor: pointer;
-  line-height: 100%;
-  width: fit-content;
-`
+import { Btn } from "@components/shared/Btn/styles"
 
 export const BtnBlue = styled(Btn)`
   height: 44px;
